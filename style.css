@@ -1,0 +1,70 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: rgb(249, 246, 246);
+    font-family: gilroy;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-part1{
+    display: flex;
+    padding: 30px 60px;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-part1 .adi1{
+   padding-left: 230px;
+}
+#nav-part2 h3{
+    padding: 30px 35px;
+    margin: -18px;
+    margin-top: 2px;
+    font-size: 21px;
+    font-weight: 500;
+}
+#nav-part2 i{
+    margin-right: 40px;
+}
+#content{
+    height: 100px;
+    width: 90%;
+
+}
+#content .adi3{
+    height: 350px;
+    font-size: 61px;
+    font-weight: bold;
+    line-height: 110px;
+  margin-top: 25px;
+padding-left: 63px;
+letter-spacing: -7px;
+
+
+}
+#content h3{
+    margin-top: 80px;
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.adi3 h1{
+  font-weight: 500;
+}
