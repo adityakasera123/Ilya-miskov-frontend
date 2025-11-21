@@ -43,18 +43,19 @@ html,body{
     margin-right: 40px;
 }
 #content{
-    height: 100px;
+    height: 100%;
     width: 90%;
 
 }
 #content .adi3{
-    height: 350px;
-    font-size: 61px;
+    height: 400px;
+  font-size: 61px;
     font-weight: bold;
     line-height: 110px;
   margin-top: 25px;
 padding-left: 63px;
 letter-spacing: -7px;
+word-spacing: 12px;
 
 
 }
@@ -67,4 +68,86 @@ letter-spacing: -7px;
 }
 .adi3 h1{
   font-weight: 500;
+}
+#case{
+   
+   margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 50px;
+    margin-bottom: 5px;
+}
+
+#case h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+ 
+#right h5{
+    font-size: 19px;
+    font-weight: 500 ;
+    padding-right: 65px;
+}
+#right{
+    display: flex;
+align-items: center;
+    gap: 40px;
+} 
+#line{
+    height: 2px;
+    width: 110px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 40px 65px;
+    gap: px;
+
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 530px;
+    background-color: rgb(142, 233, 243);
+    width: 92%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://images.unsplash.com/photo-1756291822310-ec60c0a4b0c5?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1759405095660-62a254209005?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8);
+}
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+
+} 
+#bottom i{
+    padding: 10px 30px;
+   
+    border-radius: 25px;
+    border: 2px solid black;
+    font-size: 17px;
+    margin-right: 40px;
+    
+}
+#bottom i:hover{
+  color: rgb(242, 236, 236);
+  background-color: rgb(3, 3, 3);
+
+}
+#bottom h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 3px;
 }
